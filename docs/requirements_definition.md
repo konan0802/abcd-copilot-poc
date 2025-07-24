@@ -8,10 +8,7 @@ ABCD は 1万件超・55種のユーザー意図を含む、人手作成のタ�
 
 **例：** 「本人確認→解約処理→確認連絡」といった手順推論
 
-**出典：**
-- [ABCD公式](https://github.com/asappresearch/abcd)・論文
-- [GitHub](https://github.com/asappresearch/abcd)
-- [ACL Anthology](https://aclanthology.org/2021.naacl-main.239/)
+**出典：** [ABCD GitHub](https://github.com/asappresearch/abcd)
 
 ## 要件（機能面・作業範囲）
 
@@ -38,9 +35,7 @@ ABCD は 1万件超・55種のユーザー意図を含む、人手作成のタ�
 #### 評価
 ABCDが想定するAction State Tracking 等の正解ラベルを用いた精度確認（例：正解率）
 
-**出典：** ABCD論文は Action State Tracking / Cascading Dialogue Success をタスクとして定義
-- [ACL Anthology](https://aclanthology.org/2021.naacl-main.239/)
-- [arXiv](https://arxiv.org/abs/2104.00783)
+
 
 ### 3. 成果物（PoCアウトプット）
 
@@ -55,10 +50,3 @@ ABCDが想定するAction State Tracking 等の正解ラベルを用いた精度
 - レイテンシ等の非機能要件、運用・監視、セキュリティ/権限設計、リスク対応の詳細検討
 - 本番運用を想定した CI/CD・監視・モデル配信戦略 などの整備
 
-## 参照（主要ソース）
-
-- **GitHub:** [Action-Based Conversations Dataset (ABCD)](https://github.com/asappresearch/abcd)（10K+対話・55意図、ポリシー制約下のマルチステップ手続き）
-- **論文:** Chen et al., 2021, NAACL（ABCD提案・Action State Tracking/Cascading Dialogue Success定義）
-  - [ACL Anthology](https://aclanthology.org/2021.naacl-main.239/)
-  - [arXiv](https://arxiv.org/abs/2104.00783)
-- **Papers with Code:** [ABCD 概要](https://paperswithcode.com/dataset/abcd)（タスク指向対話/Workflow Discovery）
