@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+abcd_poc_env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 環境設定ファイル
+.env
+*.env
+
+# データファイル
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+
+# モデルファイル
+models/
+*.pkl
+*.pt
+*.pth
+
+# Snowflake
+*.key
+*.pem
+
+# AWS
+.aws/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# 一時ファイル
+temp/
+tmp/ 

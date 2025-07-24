@@ -1,0 +1,18 @@
+connection:
+  account: ${SNOWFLAKE_ACCOUNT}
+  user: ${SNOWFLAKE_USER}
+  password: ${SNOWFLAKE_PASSWORD}
+  warehouse: ${SNOWFLAKE_WAREHOUSE}
+  database: ${SNOWFLAKE_DATABASE}
+  schema: ${SNOWFLAKE_SCHEMA}
+
+data_settings:
+  raw_table_prefix: "ABCD_RAW_"
+  processed_table_prefix: "ABCD_PROCESSED_"
+  features_table_prefix: "ABCD_FEATURES_"
+  batch_size: 1000
+  max_file_size_mb: 100
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 

@@ -1,0 +1,39 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.24.0
+PyYAML>=6.0
+
+# Data processing
+snowflake-connector-python>=3.0.0
+snowflake-sqlalchemy>=1.4.0
+
+# Machine Learning & LLM
+boto3>=1.26.0
+sagemaker>=2.150.0
+transformers>=4.30.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization & Analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Notebook & Development
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0 

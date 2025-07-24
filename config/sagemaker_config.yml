@@ -1,0 +1,23 @@
+training:
+  instance_type: "ml.g4dn.xlarge"
+  instance_count: 1
+  max_runtime_seconds: 3600
+  volume_size_gb: 30
+
+inference:
+  instance_type: "ml.m5.large"
+  initial_instance_count: 1
+  max_concurrent_transforms: 1
+
+model_settings:
+  max_seq_length: 512
+  batch_size: 8
+  learning_rate: 1e-4
+  num_epochs: 3
+  warmup_steps: 100
+
+data_paths:
+  s3_bucket: ${SAGEMAKER_BUCKET}
+  input_prefix: "abcd-data/input"
+  output_prefix: "abcd-data/output"
+  model_prefix: "abcd-models" 
